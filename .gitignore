@@ -1,0 +1,4 @@
+.generated
+.www
+node_modules
+npm-debug.log
