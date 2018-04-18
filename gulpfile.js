@@ -10,3 +10,11 @@ gulp.task('tokens:scss', () =>
     }))
     .pipe(gulp.dest('dist'))
 )
+gulp.task('tokens:html', () =>
+  gulp.src('tokens/buttons/color-buttons.yml')
+    .pipe(theo({
+      transform: { type: 'web' },
+      format: { type: 'html' }
+    }))
+    .pipe(gulp.dest('dist'))
+)
