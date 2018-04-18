@@ -1,0 +1,9 @@
+props:
+  background_button_success:
+    value: "{!desert_storm_grey}"
+    comment: "Background color for success buttons"
+imports:
+  - ../color-aliases.yml
+global:
+  type: color
+  category: buttons
