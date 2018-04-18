@@ -31,14 +31,14 @@ gulp.task('clean', () => del([paths.generated, paths.output]))
 ////////////////////////////////////////////////////////////////////
 
 gulp.task('design-tokens', ['styleguide'], () =>
-  gulp.src('./design-tokens/app.json')
+  gulp.src('./design-tokens/app.yml')
     .pipe(theo.plugins.transform('web'))
     .pipe(theo.plugins.format('scss'))
     .pipe(gulp.dest(paths.generated))
 )
 
 gulp.task('styleguide', () =>
-  gulp.src('./design-tokens/app.json')
+  gulp.src('./design-tokens/app.yml')
     .pipe(theo.plugins.transform('web'))
     .pipe(theo.plugins.format('html'))
     .pipe(gulp.dest(paths.generated))

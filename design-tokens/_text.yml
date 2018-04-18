@@ -1,0 +1,10 @@
+props:
+  color_text:
+    value: "{!temptress_brown}"
+  color_text_alt:
+    value: "{!oxley_green}"
+imports:
+  - ./_aliases.yml
+global:
+  type: color
+  category: text-color

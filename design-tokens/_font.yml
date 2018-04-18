@@ -1,0 +1,18 @@
+props:
+  font_size_xx_small:
+    value: "10px"
+  font_size_x_small:
+    value: "13px"
+  font_size_small:
+    value: "14px"
+  font_size_medium:
+    value: "15px"
+  font_size_large:
+    value: "16px"
+  font_size_x_large:
+    value: "18px"
+  font_size_xx_large:
+    value: "22px"
+global:
+  type: "size"
+  category: "font-size"

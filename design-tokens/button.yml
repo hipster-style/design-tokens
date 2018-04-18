@@ -1,0 +1,20 @@
+props:
+  border_radius_button:
+    value: "{!border_radius_large}"
+    type: size
+    category: radius
+  spacing_padding_button:
+    value: "8px"
+    type: size
+    category: spacing
+  color_background_button:
+    value: "{!teal_blue}"
+    type: color
+    category: background-color
+  color_text_button:
+    value: "{!desert_storm_grey}"
+    type: color
+    category: text-color
+imports:
+  - ./_border.yml
+  - ./_color.yml

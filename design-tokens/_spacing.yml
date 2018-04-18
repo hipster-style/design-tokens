@@ -1,0 +1,16 @@
+props:
+  spacing_xx_small:
+    value: "2px"
+  spacing_x_small:
+    value: "7px"
+  spacing_small:
+    value: "8px"
+  spacing_medium:
+    value: "14px"
+  spacing_large:
+    value: "18px"
+  spacing_x_large:
+    value: "28px"
+global:
+  type: "size"
+  category: "spacing"
