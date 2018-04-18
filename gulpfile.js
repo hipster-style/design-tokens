@@ -8,7 +8,7 @@ const gulp = require('gulp')
 const sass = require('gulp-sass')
 const livereload = require('gulp-livereload')
 
-const theo = require('theo')
+const theo = require('gulp-theo')
 
 ////////////////////////////////////////////////////////////////////
 // Paths
@@ -32,15 +32,28 @@ gulp.task('clean', () => del([paths.generated, paths.output]))
 
 gulp.task('design-tokens', ['styleguide'], () =>
   gulp.src('./design-tokens/app.yml')
-    .pipe(theo.plugins.transform('web'))
-    .pipe(theo.plugins.format('scss'))
+    .pipe(theo({
+    	transform: { type: 'web' },
+    	format: { type: 'scss' }
+    }))
+    .pipe(gulp.dest(paths.generated))
+)
+
+gulp.task('android', ['design-tokens'], () =>
+  gulp.src('./design-tokens/app.yml')
+    .pipe(theo({
+    	transform: { type: 'android' },
+    	format: { type: 'android.xml' }
+    }))
     .pipe(gulp.dest(paths.generated))
 )
 
 gulp.task('styleguide', () =>
   gulp.src('./design-tokens/app.yml')
-    .pipe(theo.plugins.transform('web'))
-    .pipe(theo.plugins.format('html'))
+    .pipe(theo({
+    	transform: { type: 'web' },
+    	format: { type: 'html' }
+    }))
     .pipe(gulp.dest(paths.generated))
     .pipe(livereload())
 )
