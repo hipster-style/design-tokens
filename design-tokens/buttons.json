@@ -1,0 +1,17 @@
+{
+  "global": {
+    "type": "color",
+    "category": "button-color"
+  },
+  "imports": [
+    "./_aliases.json"
+  ],
+  "props": {
+    "COLOR_BUTTON_BACKGROUND": {
+      "value": "{!NEVADA}"
+    },
+    "COLOR_BUTTON_TEXT": {
+      "value": "{!BLUE_BAYOUX}"
+    }
+  }
+}

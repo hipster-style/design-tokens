@@ -1,10 +1,11 @@
 {
   "imports": [
-    "./aliases.json",
-    "./border.json",
-    "./font.json",
-    "./spacing.json",
-    "./text.json"
+    "./_aliases.json",
+    "./_border.json",
+    "./_font.json",
+    "./_spacing.json",
+    "./_text.json",
+    "./buttons.json"
   ],
   "props": {
     "COLOR_BRAND": {

@@ -70,7 +70,7 @@ gulp.task('watch', () => {
   livereload.listen({
     port: 35729
   })
-  gulp.watch('design-tokens/**/*.json', ['styles'])
+  gulp.watch('design-tokens/**/*.yml', ['styles'])
   gulp.watch('src/**/*.scss', ['styles'])
   gulp.watch('src/**/*.html', ['html'])
 })

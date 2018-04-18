@@ -1,6 +1,6 @@
 {
   "imports": [
-    "./aliases.json"
+    "./_aliases.json"
   ],
   "props": {
     "BORDER_RADIUS_SMALL": {

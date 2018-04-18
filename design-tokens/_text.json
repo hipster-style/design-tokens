@@ -4,7 +4,7 @@
     "category": "text-color"
   },
   "imports": [
-    "./aliases.json"
+    "./_aliases.json"
   ],
   "props": {
     "COLOR_TEXT": {
