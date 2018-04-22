@@ -7,3 +7,5 @@ aliases:
     value: "#619a82"
   teal_blue:
     value: "#244F58"
+  teal_blue_dark:
+    value: "#1A393F"

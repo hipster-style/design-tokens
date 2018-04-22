@@ -11,6 +11,10 @@ props:
     value: "{!teal_blue}"
     type: color
     category: background-color
+  color_background_button_shadow:
+    value: "{!teal_blue_dark}"
+    type: color
+    category: background-color
   color_text_button:
     value: "{!desert_storm_grey}"
     type: color
