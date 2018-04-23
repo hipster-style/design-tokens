@@ -39,7 +39,7 @@ gulp.task('design-tokens', ['styleguide'], () =>
     .pipe(gulp.dest(paths.generated))
 )
 
-gulp.task('android', ['design-tokens'], () =>
+gulp.task('android', () =>
   gulp.src('./design-tokens/app.yml')
     .pipe(theo({
     	transform: { type: 'android' },
