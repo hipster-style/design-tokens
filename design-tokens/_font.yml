@@ -1,4 +1,4 @@
-props:
+aliases:
   font_size_xx_small:
     value: "10px"
   font_size_x_small:
@@ -13,6 +13,3 @@ props:
     value: "18px"
   font_size_xx_large:
     value: "22px"
-global:
-  type: "size"
-  category: "font-size"
