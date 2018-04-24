@@ -4,7 +4,7 @@ props:
     type: size
     category: radius
   color_background_button:
-    value: "{!teal_blue}"
+    value: "{!oxley_green}"
     type: color
     category: background-color
   color_background_button_shadow:
