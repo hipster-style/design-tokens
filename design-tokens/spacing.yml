@@ -1,4 +1,4 @@
-aliases:
+props:
   spacing_xx_small:
     value: "2px"
   spacing_x_small:
@@ -11,3 +11,6 @@ aliases:
     value: "18px"
   spacing_x_large:
     value: "28px"
+global:
+  type: size
+  category: spacing

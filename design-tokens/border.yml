@@ -1,4 +1,4 @@
-aliases:
+props:
   border_radius_small:
     value: "3px"
   border_radius_medium:
@@ -7,3 +7,6 @@ aliases:
     value: "8px"
   border_radius_circle:
     value: "50%"
+global:
+  type: size
+  category: radius

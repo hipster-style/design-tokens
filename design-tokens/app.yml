@@ -1,2 +1,5 @@
 imports:
-  - ./button.yml
+  - ./color.yml
+  - ./border.yml
+  - ./font.yml
+  - ./spacing.yml
