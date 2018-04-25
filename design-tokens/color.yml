@@ -29,6 +29,8 @@ props:
     value: "#689F38"
   oxley_green_900:
     value: "#33691E"
+  red:
+    value: "#FF0000"
 global:
   type: color
   category: background-color
