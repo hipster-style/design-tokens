@@ -5,30 +5,30 @@ props:
     value: "#8D6E63"
   brown_500:
     value: "#795548"
-  brown_600:
-    value: "#6D4C41"
   brown_700:
     value: "#5D4037"
+  brown_900:
+    value: "#3E2723"
   blue_grey_200:
     value: "#B0BEC5"
   blue_grey_400:
     value: "#78909C"
   blue_grey_500:
     value: "#607D8B"
-  blue_grey_600:
-    value: "#546E7A"
   blue_grey_700:
     value: "#455A64"
+  blue_grey_900:
+    value: "#263238"
   oxley_green_200:
     value: "#C5E1A5"
   oxley_green_400:
     value: "#9CCC65"
   oxley_green_500:
     value: "#8BC34A"
-  oxley_green_600:
-    value: "#7CB342"
   oxley_green_700:
     value: "#689F38"
+  oxley_green_900:
+    value: "#33691E"
 global:
   type: color
   category: background-color
